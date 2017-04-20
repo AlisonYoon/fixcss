@@ -1,0 +1,11 @@
+/*css declaration generic for firefox and other browsers*/
+.editor-container .realtime-editor {
+margin-top:-12px;
+}
+
+/*css declaration only for Chrome/Safari*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+      .editor-container .realtime-editor {
+            margin-top: 7px;
+      }
+}
